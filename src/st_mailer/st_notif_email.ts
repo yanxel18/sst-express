@@ -73,8 +73,8 @@ class MailSender implements IMailSender {
   email_from = "itg-kyoyu1@jty.yuden.co.jp";
   mail_port = 25;
   mail_server = "smtp.jty.yuden.co.jp";
-  mail_user = "itg-kyoyu1";
-  mail_pass = "it10123";
+  mail_user = "";
+  mail_pass = "";
 
   transporter: nodemailer.Transporter<SMTPTransport.SentMessageInfo> =
     nodemailer.createTransport({
