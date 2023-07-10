@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
-import cookieParser from 'cookie-parser';
-import morgan from 'morgan';
+import cookieParser from 'cookie-parser'; 
 import helmet from 'helmet';
 import express, { Request, Response } from 'express';
 import StatusCodes from 'http-status-codes';
